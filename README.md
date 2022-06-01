@@ -11,7 +11,9 @@
 // Para usuarios da faixa de IP 200.128.0.0 até 200.255.0.0. será exibida a versão oficial da página em português; 
 // Para usuarios fora da faixa de IP 200.128.0.0 até 200.255.0.0. será ofertado a pagina em idioma escolhido. 
 
+//Criar condição de exibição de cada pagina dentro do arquivo index.php 
 //Criar a condição atraves do ip2long para saber qual faixa se trata 
+//Retornar a pagina conforme o idioma determinado 
 
 //Hipotese 01 - Sem tradução realizada por especialista
 // Se o cliente tiver de acordo colocar a api de consulta do google translate V2 
